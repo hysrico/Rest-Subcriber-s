@@ -1,0 +1,29 @@
+GET http://localhost:3000/subscribers
+
+##
+
+GET http://localhost:3000/subscribers/
+
+##
+
+POST http://localhost:300/subscribers/
+Content-Type: application/json 
+
+{
+    "name" : "Amazing Person",
+    "subscribedToChannel" : "Web Dev Simplified"
+}
+
+##
+DELETE http://localhost:3000/subscribers/
+
+##
+
+PATCH  http://localhost:3000/subscribers/
+Content-Type: application/json 
+
+{
+    "name:" : "New Name"
+}
+
+## Make Sure Checking the end point key
